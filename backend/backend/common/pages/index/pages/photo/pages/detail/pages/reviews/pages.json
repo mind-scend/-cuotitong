@@ -1,0 +1,15 @@
+{
+  "pages": [
+    { "path": "pages/index/index", "style": { "navigationBarTitleText": "登录" } },
+    { "path": "pages/photo/photo", "style": { "navigationBarTitleText": "拍照分析" } },
+    { "path": "pages/detail/detail", "style": { "navigationBarTitleText": "错题详情" } },
+    { "path": "pages/reviews/reviews", "style": { "navigationBarTitleText": "今日复习" } }
+  ],
+  "globalStyle": { "navigationBarTextStyle": "black", "navigationBarTitleText": "错题通" },
+  "tabBar": {
+    "list": [
+      { "pagePath": "pages/photo/photo", "text": "拍照" },
+      { "pagePath": "pages/reviews/reviews", "text": "复习" }
+    ]
+  }
+}
